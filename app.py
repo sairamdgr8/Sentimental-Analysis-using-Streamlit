@@ -14,7 +14,9 @@ from PIL import Image
 st.title('SAI- Made Sentimental Analysis')
 
 # TAKE WEIGHT INPUT in kgs
-tweet  = st.text_input("Enter Your text to verify the tweet", "please type here...")
+
+st.subheader("Enter your text to verify the tweet")
+tweet  = st.text_input(" ", "please type here...")
 
 
 
